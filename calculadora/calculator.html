@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="calculator.css">
+    </head>
+    
+    <body>
+    
+        <h1>Calculadora</h1>
+
+        <p>Primeiro número: <input type="number" id="n1"></p>
+        <p>Segundo número: <input type="number" id="n2"></p>
+
+        <button onclick="resolution('+')">+</button>
+        <button onclick="resolution('-')">-</button>
+        <button onclick="resolution('.')">.</button>
+        <button onclick="resolution('/')">/</button>
+
+        <h2>O resultado encontrado é: </h2> 
+        <p id="resultado">...</p>
+    
+
+        <script src="calculator.js"></script>
+    
+    </body>
+    
+    </html>
