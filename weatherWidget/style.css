@@ -1,0 +1,8 @@
+*{
+    font-family: 'Mooli', sans-serif;
+    font-weight: bold;
+}
+
+.w3-xlarge{
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+}
